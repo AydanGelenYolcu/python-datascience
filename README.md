@@ -1,8 +1,7 @@
 # Python Data Science Roadmap
 
 ## Project Overview
-A comprehensive collection of data science projects demonstrating essential skills and techniques in Python data analysis and machine learning.
-
+A comprehensive collection of data science roadmap projects demonstrating essential skills and techniques in Python data analysis and machine learning. 4 Projects are listed down
 ## Projects
 
 ### 1. Library Management System
