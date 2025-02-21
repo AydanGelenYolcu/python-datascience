@@ -2,6 +2,10 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.metrics import accuracy_score
+
 
 sns.set_style("darkgrid")
 df = pd.read_csv("starbucks.csv" ,index_col=0 )
@@ -108,11 +112,6 @@ plt.show()
 sns.displot(x = "carb", data =df, color = "blue", kde = "True")
 plt.title("Carbonhydrate Graph")
 plt.show()
-
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn.metrics import accuracy_score
-import matplotlib.pyplot as plt
 
 # Feature and target selection
 x = df[["calories", "fat", "fiber", "protein", "carb"]]
