@@ -7,7 +7,7 @@ class Library:
         #nesne silinince dosyayı kapat
         if hasattr(self, 'file') and self.file is not None:
             self.file.close()
-            print("kitaplık kapandı, dosya kapandı")
+            print("Library is closed")
 
     def list_books(self):
         # Dosyanın içeriğini oku
